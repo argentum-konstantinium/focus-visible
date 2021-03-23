@@ -1,0 +1,29 @@
+*:focus {
+    outline: none;
+}
+
+input,select, label, textarea {
+    
+    margin: 10px;
+}
+
+input, textarea, select {
+    display: block;
+}
+label {
+    display: flex;
+    align-items: center;
+}
+
+select {
+    display: block;
+    padding: 10px;
+}
+
+option {
+    padding: 10px;
+}
+
+[data-focus-visible] {
+    box-shadow: 0 0 0 3px orange;
+}
