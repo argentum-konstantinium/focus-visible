@@ -5,6 +5,7 @@
 input,select, label, textarea {
     
     margin: 10px;
+    border: 1px solid black;
 }
 
 input, textarea, select {
